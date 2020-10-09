@@ -17,7 +17,7 @@ app.route('/api')
   })
   .post((req, res) => {
     console.log('POST request detected');
-    res.send('<p>hello world</p>')
+    // res.send('Lab 5 for your name');
     console.log('Form data in res.body', req.body)
 
   });
